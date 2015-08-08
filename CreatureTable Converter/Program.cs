@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Newtonsoft.Json;
 using System.IO;
+using Newtonsoft.Json;
+using InfoLib;
 
 namespace CreatureTable_Converter
 {
@@ -20,8 +21,6 @@ namespace CreatureTable_Converter
             Console.WriteLine("              Open DarkEden             ");
             Console.WriteLine("       Author: Matheus M. Cardoso       ");
             Console.WriteLine("----------------------------------------");
-
-            EncodingHelper.Initialize();
 
             if (args.Length == 0)
             {
