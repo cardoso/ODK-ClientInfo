@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Newtonsoft.Json;
 using System.IO;
+using Newtonsoft.Json;
+using InfoLib;
 
 namespace ItemTable_Converter
 {
@@ -13,15 +14,13 @@ namespace ItemTable_Converter
         {
             Console.Title = "Item.inf Converter v1.0 - OpenDarkEden";
 
-            //args = new string[] { @"C:\OpenDarkEden\ItemTable Converter\item2.inf.js" };
+            args = new string[] { @".\item.inf" };
 
             Console.WriteLine("----------------------------------------");
             Console.WriteLine("       ItemTable v6 Converter v1.0      ");
             Console.WriteLine("              Open DarkEden             ");
             Console.WriteLine("       Author: Matheus M. Cardoso       ");
             Console.WriteLine("----------------------------------------");
-
-            EncodingHelper.Initialize();
 
             if (args.Length == 0)
             {
