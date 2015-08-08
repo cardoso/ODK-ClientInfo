@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemTable Converter", "Item
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoneTable Converter", "ZoneTable Converter\ZoneTable Converter.csproj", "{2E69F6A3-AE8B-4173-AED9-250D3D877A7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatureSpriteTable Converter", "CreatureSpriteTable Converter\CreatureSpriteTable Converter.csproj", "{386339D6-2387-4EF9-8C48-968B7BC17C38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2E69F6A3-AE8B-4173-AED9-250D3D877A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E69F6A3-AE8B-4173-AED9-250D3D877A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E69F6A3-AE8B-4173-AED9-250D3D877A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{386339D6-2387-4EF9-8C48-968B7BC17C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386339D6-2387-4EF9-8C48-968B7BC17C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386339D6-2387-4EF9-8C48-968B7BC17C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386339D6-2387-4EF9-8C48-968B7BC17C38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -40,7 +40,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinarySerializer.cs" />
+    <Compile Include="Creature\CreatureSprite.cs" />
     <Compile Include="Creature\Creature.cs" />
+    <Compile Include="Creature\CreatureSpriteTable.cs" />
     <Compile Include="Creature\CreatureTable.cs" />
     <Compile Include="Item\Item.cs" />
     <Compile Include="Item\ItemTable.cs" />
