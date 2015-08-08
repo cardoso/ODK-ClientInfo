@@ -1,5 +1,5 @@
 # ODK-ClientInfo
-A collection JSON converters with classes for the DarkEden info files.
+Library for the DarkEden info files with a collection of JSON converters.
 
 I'll be adding more later.
 

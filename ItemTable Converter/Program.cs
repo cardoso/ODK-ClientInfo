@@ -14,7 +14,7 @@ namespace ItemTable_Converter
         {
             Console.Title = "Item.inf Converter v1.0 - OpenDarkEden";
 
-            //args = new string[] { @"C:\OpenDarkEden\ItemTable Converter\item2.inf.js" };
+            args = new string[] { @".\item.inf" };
 
             Console.WriteLine("----------------------------------------");
             Console.WriteLine("       ItemTable v6 Converter v1.0      ");

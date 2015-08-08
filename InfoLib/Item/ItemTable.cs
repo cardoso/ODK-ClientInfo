@@ -20,7 +20,7 @@ namespace InfoLib
 
             //Items
             this.Items = new List<Item>();
-            for (int i = 0; i < quantity; i++)
+            for (UInt32 i = 0; i < quantity; i++)
             {
                 this.Items.Add(new Item(ref file));
             }

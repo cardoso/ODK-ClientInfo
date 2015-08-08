@@ -92,6 +92,8 @@ namespace InfoLib
             //HName
             this.HName = BinarySerializer.ReadString(ref file, Encoding.ASCII);
 
+            Console.WriteLine(HName);
+
             //EName
             this.EName = BinarySerializer.ReadString(ref file, Encoding.ASCII);
 
@@ -195,7 +197,7 @@ namespace InfoLib
             this.ItemCanAdvance = BinarySerializer.ReadByte(ref file);
 
             //DropItemNameTag
-            this.DropItemNameTag = BinarySerializer.ReadByte(ref file);
+            this.DropItemNameTag = BinarySerializer.ReadUInt32(ref file);
 
             //NormalItemGrade
             this.NormalItemGrade = BinarySerializer.ReadInt32(ref file);
