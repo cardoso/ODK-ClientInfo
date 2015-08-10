@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoLib", "InfoLib\InfoLib.csproj", "{4BD117F2-61FE-498E-B215-04CD7A50CD27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatureTable Converter", "CreatureTable Converter\CreatureTable Converter.csproj", "{55D08DD2-9C67-447C-BD7E-72E332927AE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatureTable Converter", "Converters\CreatureTable Converter\CreatureTable Converter.csproj", "{55D08DD2-9C67-447C-BD7E-72E332927AE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemTable Converter", "ItemTable Converter\ItemTable Converter.csproj", "{DDED5A4F-18E8-4F5D-949C-0DA337BB579C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemTable Converter", "Converters\ItemTable Converter\ItemTable Converter.csproj", "{DDED5A4F-18E8-4F5D-949C-0DA337BB579C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoneTable Converter", "ZoneTable Converter\ZoneTable Converter.csproj", "{2E69F6A3-AE8B-4173-AED9-250D3D877A7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoneTable Converter", "Converters\ZoneTable Converter\ZoneTable Converter.csproj", "{2E69F6A3-AE8B-4173-AED9-250D3D877A7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatureSpriteTable Converter", "CreatureSpriteTable Converter\CreatureSpriteTable Converter.csproj", "{386339D6-2387-4EF9-8C48-968B7BC17C38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatureSpriteTable Converter", "Converters\CreatureSpriteTable Converter\CreatureSpriteTable Converter.csproj", "{386339D6-2387-4EF9-8C48-968B7BC17C38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
